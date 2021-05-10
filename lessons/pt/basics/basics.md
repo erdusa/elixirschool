@@ -1,11 +1,11 @@
+%{
+  version: "1.2.1",
+  title: "Básico",
+  excerpt: """
+  Primeiros Passos, tipos básicos e operações básicas.
+  """
+}
 ---
-version: 1.2.1
-title: Básico
----
-
-Primeiros Passos, tipos básicos e operações básicas.
-
-{% include toc.html %}
 
 ## Primeiros Passos
 
