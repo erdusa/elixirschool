@@ -1,11 +1,11 @@
+%{
+  version: "1.1.2",
+  title: "기본",
+  excerpt: """
+  Elixir를 시작합시다. 기본적인 타입과 연산자를 배워봅시다.
+  """
+}
 ---
-version: 1.1.2
-title: 기본
----
-
-Elixir를 시작합시다. 기본적인 타입과 연산자를 배워봅시다.
-
-{% include toc.html %}
 
 ## 시작하기
 
