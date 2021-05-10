@@ -1,11 +1,11 @@
+%{
+  version: "0.9.0",
+  title: "Sigile",
+  excerpt: """
+  Tworzenie i praca z sigilami.
+  """
+}
 ---
-version: 0.9.0
-title: Sigile
----
-
-Tworzenie i praca z sigilami.
-
-{% include toc.html %}
 
 ## Czym są sigile
 
