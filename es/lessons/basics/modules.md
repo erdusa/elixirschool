@@ -272,7 +272,7 @@ iex> Example.hello("Sean")
 "Hi, Sean"
 ```
 
-Aquí podemos ver que `use` invocó el callback `__using__/1` del módulo `Hello` que a su ves agrego el código resultante a nuestro módulo.
+Aquí podemos ver que `use` invocó el callback `__using__/1` del módulo `Hello` que a su vez agregó el código resultante a nuestro módulo.
 Ahora que hemos demostrado un ejemplo básico, actualicemos nuestro código para ver cómo `__using__/1` admite opciones.
 Haremos esto agregando la opción `greeting`:
 
@@ -304,6 +304,6 @@ iex> Example.hello("Sean")
 ```
 
 Estos son ejemplos simples para mostrar como funciona `use`, pero es una herramienta increíblemente poderosa en las herramientas de Elixir.
-A medida que continúe aprendiendo acerca de Elixir, este atento a `use`, un ejemplo que seguramente vera es `use ExUnit.Case, async: true`.
+A medida que continúe aprendiendo acerca de Elixir, este atento a `use`, un ejemplo que seguramente verá es `use ExUnit.Case, async: true`.
 
 **Nota**: `quote`, `alias`, `use`, `require` son macros utilizadas cuando trabajamos con [metaprogramming](../../advanced/metaprogramming).
